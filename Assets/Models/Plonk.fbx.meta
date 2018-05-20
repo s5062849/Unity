@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: 6f43a43ddcdc2ba42989eeb1578936a1
+timeCreated: 1526824815
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: backboard
+    100002: bottom
+    100004: bottom1
+    100006: bottom2
+    100008: pCube1
+    100010: pCube1 1
+    100012: pCube1 2
+    100014: pCube2
+    100016: pCube2 1
+    100018: pCube2 2
+    100020: pCube3
+    100022: pCube3 1
+    100024: pCube3 2
+    100026: pCube4
+    100028: pCube4 1
+    100030: //RootNode
+    100032: pointer
+    100034: pointer1
+    100036: pointer10
+    100038: pointer11
+    100040: pointer12
+    100042: pointer13
+    100044: pointer14
+    100046: pointer15
+    100048: pointer16
+    100050: pointer17
+    100052: pointer18
+    100054: pointer19
+    100056: pointer2
+    100058: pointer20
+    100060: pointer21
+    100062: pointer22
+    100064: pointer23
+    100066: pointer24
+    100068: pointer25
+    100070: pointer26
+    100072: pointer27
+    100074: pointer28
+    100076: pointer29
+    100078: pointer30
+    100080: pointer31
+    100082: pointer32
+    100084: pointer33
+    100086: pointer34
+    100088: pointer35
+    100090: pointer36
+    100092: pointer37
+    100094: pointer38
+    100096: pointer4
+    100098: pointer5
+    100100: pointer6
+    100102: pointer7
+    100104: pointer8
+    100106: pointer9
+    100108: pointers
+    100110: side1
+    100112: side2
+    100114: structs
+    400000: backboard
+    400002: bottom
+    400004: bottom1
+    400006: bottom2
+    400008: pCube1
+    400010: pCube1 1
+    400012: pCube1 2
+    400014: pCube2
+    400016: pCube2 1
+    400018: pCube2 2
+    400020: pCube3
+    400022: pCube3 1
+    400024: pCube3 2
+    400026: pCube4
+    400028: pCube4 1
+    400030: //RootNode
+    400032: pointer
+    400034: pointer1
+    400036: pointer10
+    400038: pointer11
+    400040: pointer12
+    400042: pointer13
+    400044: pointer14
+    400046: pointer15
+    400048: pointer16
+    400050: pointer17
+    400052: pointer18
+    400054: pointer19
+    400056: pointer2
+    400058: pointer20
+    400060: pointer21
+    400062: pointer22
+    400064: pointer23
+    400066: pointer24
+    400068: pointer25
+    400070: pointer26
+    400072: pointer27
+    400074: pointer28
+    400076: pointer29
+    400078: pointer30
+    400080: pointer31
+    400082: pointer32
+    400084: pointer33
+    400086: pointer34
+    400088: pointer35
+    400090: pointer36
+    400092: pointer37
+    400094: pointer38
+    400096: pointer4
+    400098: pointer5
+    400100: pointer6
+    400102: pointer7
+    400104: pointer8
+    400106: pointer9
+    400108: pointers
+    400110: side1
+    400112: side2
+    400114: structs
+    2300000: backboard
+    2300002: pCube1
+    2300004: pCube1 1
+    2300006: pCube1 2
+    2300008: pCube2
+    2300010: pCube2 1
+    2300012: pCube2 2
+    2300014: pCube3
+    2300016: pCube3 1
+    2300018: pCube3 2
+    2300020: pCube4
+    2300022: pCube4 1
+    2300024: pointer
+    2300026: pointer1
+    2300028: pointer10
+    2300030: pointer11
+    2300032: pointer12
+    2300034: pointer13
+    2300036: pointer14
+    2300038: pointer15
+    2300040: pointer16
+    2300042: pointer17
+    2300044: pointer18
+    2300046: pointer19
+    2300048: pointer2
+    2300050: pointer20
+    2300052: pointer21
+    2300054: pointer22
+    2300056: pointer23
+    2300058: pointer24
+    2300060: pointer25
+    2300062: pointer26
+    2300064: pointer27
+    2300066: pointer28
+    2300068: pointer29
+    2300070: pointer30
+    2300072: pointer31
+    2300074: pointer32
+    2300076: pointer33
+    2300078: pointer34
+    2300080: pointer35
+    2300082: pointer36
+    2300084: pointer37
+    2300086: pointer38
+    2300088: pointer4
+    2300090: pointer5
+    2300092: pointer6
+    2300094: pointer7
+    2300096: pointer8
+    2300098: pointer9
+    2300100: side1
+    2300102: side2
+    3300000: backboard
+    3300002: pCube1
+    3300004: pCube1 1
+    3300006: pCube1 2
+    3300008: pCube2
+    3300010: pCube2 1
+    3300012: pCube2 2
+    3300014: pCube3
+    3300016: pCube3 1
+    3300018: pCube3 2
+    3300020: pCube4
+    3300022: pCube4 1
+    3300024: pointer
+    3300026: pointer1
+    3300028: pointer10
+    3300030: pointer11
+    3300032: pointer12
+    3300034: pointer13
+    3300036: pointer14
+    3300038: pointer15
+    3300040: pointer16
+    3300042: pointer17
+    3300044: pointer18
+    3300046: pointer19
+    3300048: pointer2
+    3300050: pointer20
+    3300052: pointer21
+    3300054: pointer22
+    3300056: pointer23
+    3300058: pointer24
+    3300060: pointer25
+    3300062: pointer26
+    3300064: pointer27
+    3300066: pointer28
+    3300068: pointer29
+    3300070: pointer30
+    3300072: pointer31
+    3300074: pointer32
+    3300076: pointer33
+    3300078: pointer34
+    3300080: pointer35
+    3300082: pointer36
+    3300084: pointer37
+    3300086: pointer38
+    3300088: pointer4
+    3300090: pointer5
+    3300092: pointer6
+    3300094: pointer7
+    3300096: pointer8
+    3300098: pointer9
+    3300100: side1
+    3300102: side2
+    4300000: backboard
+    4300002: side1
+    4300004: side2
+    4300006: pCube1
+    4300008: pCube2
+    4300010: pCube3
+    4300012: pCube4
+    4300014: pCube1
+    4300016: pCube2
+    4300018: pCube3
+    4300020: pCube1
+    4300022: pCube2
+    4300024: pCube3
+    4300026: pCube4
+    4300028: pointer
+    4300030: pointer1
+    4300032: pointer2
+    4300034: pointer4
+    4300036: pointer5
+    4300038: pointer6
+    4300040: pointer7
+    4300042: pointer8
+    4300044: pointer9
+    4300046: pointer10
+    4300048: pointer11
+    4300050: pointer12
+    4300052: pointer13
+    4300054: pointer14
+    4300056: pointer15
+    4300058: pointer16
+    4300060: pointer17
+    4300062: pointer18
+    4300064: pointer19
+    4300066: pointer20
+    4300068: pointer21
+    4300070: pointer22
+    4300072: pointer23
+    4300074: pointer24
+    4300076: pointer25
+    4300078: pointer26
+    4300080: pointer27
+    4300082: pointer28
+    4300084: pointer29
+    4300086: pointer30
+    4300088: pointer31
+    4300090: pointer32
+    4300092: pointer33
+    4300094: pointer34
+    4300096: pointer35
+    4300098: pointer36
+    4300100: pointer37
+    4300102: pointer38
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
