@@ -20,7 +20,7 @@ public class Play : MonoBehaviour {
         {
             var rb = gameObject.GetComponent<Rigidbody>();
 
-            var force = gameObject.transform.forward * 100 * Time.deltaTime;
+            var force = gameObject.transform.forward * 50 * Time.deltaTime;
 
             var posision = GameObject.Find("ForcePosision").transform.position;
 
