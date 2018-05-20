@@ -9,7 +9,7 @@ public class MakeBellMove : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "Domino (21)")
+        if (collision.gameObject.name == "Domino (21)" || collision.gameObject.name == "Bell (1)")
         {
             BellMovement.hit = true;
         }

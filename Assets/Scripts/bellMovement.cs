@@ -24,6 +24,24 @@ public class bellMovement : MonoBehaviour {
 
 	}
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.name == "Struct (10)" )
+        {
+            
+            hit = false;
+            gameObject.transform.position = gameObject.transform.position;
+           
+        }
+        else if (collision.gameObject.name == "Struct (15)")
+            
+        {
+            Debug.Log("Should Stop");
+            hit = false;
+            gameObject.transform.position = gameObject.transform.position;
+            Debug.Log(hit);
+        }
+    }
 
 
 

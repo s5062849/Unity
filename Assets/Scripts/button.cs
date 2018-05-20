@@ -9,7 +9,7 @@ public class button : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "Domino (3)")
+        if (collision.gameObject.name == "Domino (3)" || collision.gameObject.name == "Bell")
         {
             Destroy(deleteThis);
         }
