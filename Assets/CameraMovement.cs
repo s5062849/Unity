@@ -273,6 +273,7 @@ public class CameraMovement : MonoBehaviour {
     public void ChangeCam()
     {
         cameraPos += 1;
+        Debug.Log(cameraPos);
     }
 
 
