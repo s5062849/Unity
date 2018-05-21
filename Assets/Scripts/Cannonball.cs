@@ -25,7 +25,7 @@ public class Cannonball : MonoBehaviour {
         if (gameObject.name == "cannonBall (1)")
         {
             var rb = gameObject.GetComponent<Rigidbody>();
-            var force = Vector3.forward * 1000f * Time.deltaTime;
+            var force = Vector3.forward * 1500f * Time.deltaTime;
             var posision = gameObject.transform.position;
 
             rb.AddForceAtPosition(force, posision, ForceMode.VelocityChange);
