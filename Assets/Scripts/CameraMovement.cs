@@ -56,7 +56,8 @@ public class CameraMovement : MonoBehaviour {
                 break;
             case 3:
 
-                offset.x = 3;
+                offset.x = 0;
+                offset.y = 3;
 
                 CameraTarget();
                 targetpos = obj.position + offset;
@@ -68,7 +69,7 @@ public class CameraMovement : MonoBehaviour {
             case 4:
 
                 offset.x = 3;
-
+                offset.y = 0;
                 CameraTarget();
                 targetpos = obj.position + offset;
                 smoothedPos = Vector3.Lerp(transform.position, targetpos, smoothspeed);
@@ -78,7 +79,8 @@ public class CameraMovement : MonoBehaviour {
                 break;
             case 5:
 
-                offset.x = 3;
+                offset.x = 0;
+                offset.z = -3;
 
                 CameraTarget();
                 targetpos = obj.position + offset;
@@ -89,7 +91,7 @@ public class CameraMovement : MonoBehaviour {
                 break;
             case 6:
 
-                offset.x = 3;
+                
 
                 CameraTarget();
                 targetpos = obj.position + offset;
@@ -99,8 +101,8 @@ public class CameraMovement : MonoBehaviour {
 
                 break;
             case 7:
-
-                offset.x = 3;
+                offset.z = 0;
+                offset.x = 5;
 
                 CameraTarget();
                 targetpos = obj.position + offset;
@@ -111,7 +113,7 @@ public class CameraMovement : MonoBehaviour {
                 break;
             case 8:
 
-                offset.x = 3;
+                
 
                 CameraTarget();
                 targetpos = obj.position + offset;
@@ -144,8 +146,8 @@ public class CameraMovement : MonoBehaviour {
                 break;
             case 11:
 
-                offset.x = 3;
-
+                offset.x = 0;
+                offset.z = 3;
                 CameraTarget();
                 targetpos = obj.position + offset;
                 smoothedPos = Vector3.Lerp(transform.position, targetpos, smoothspeed);
@@ -154,7 +156,7 @@ public class CameraMovement : MonoBehaviour {
 
                 break;
             case 12:
-
+                offset.z = 0;
                 offset.x = 3;
 
                 CameraTarget();
@@ -166,7 +168,7 @@ public class CameraMovement : MonoBehaviour {
                 break;
             case 13:
 
-                offset.x = 3;
+                offset.x = 5;
 
                 CameraTarget();
                 targetpos = obj.position + offset;
@@ -176,7 +178,7 @@ public class CameraMovement : MonoBehaviour {
 
                 break;
             case 14:
-
+                offset.y = 2;
                 offset.x = 3;
 
                 CameraTarget();
@@ -187,9 +189,9 @@ public class CameraMovement : MonoBehaviour {
 
                 break;
             case 15:
-
-                offset.x = 3;
-
+                offset.y = 0;
+                offset.x = 0;
+                offset.z = 3;
                 CameraTarget();
                 targetpos = obj.position + offset;
                 smoothedPos = Vector3.Lerp(transform.position, targetpos, smoothspeed);
@@ -198,7 +200,7 @@ public class CameraMovement : MonoBehaviour {
 
                 break;
             case 16:
-
+                offset.z = 0;
                 offset.x = 3;
 
                 CameraTarget();
@@ -209,8 +211,8 @@ public class CameraMovement : MonoBehaviour {
 
                 break;
             case 17:
-
-                offset.x = 3;
+                offset.z = 3;
+                offset.x = 0;
 
                 CameraTarget();
                 targetpos = obj.position + offset;
@@ -221,7 +223,7 @@ public class CameraMovement : MonoBehaviour {
                 break;
             case 18:
 
-                offset.x = 3;
+                
 
                 CameraTarget();
                 targetpos = obj.position + offset;
@@ -231,9 +233,7 @@ public class CameraMovement : MonoBehaviour {
 
                 break;
             case 19:
-
-                offset.x = 3;
-
+                
                 CameraTarget();
                 targetpos = obj.position + offset;
                 smoothedPos = Vector3.Lerp(transform.position, targetpos, smoothspeed);
@@ -243,7 +243,8 @@ public class CameraMovement : MonoBehaviour {
                 break;
             case 20:
 
-                offset.x = 3;
+                offset.x = 5;
+                offset.z = -5;
 
                 CameraTarget();
                 targetpos = obj.position + offset;
