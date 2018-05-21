@@ -6,11 +6,12 @@ public class Play : MonoBehaviour {
 
     private bool play;
 
-
+    public HideShow hideShow;
 
 	// Use this for initialization
 	void Start () {
         play = true;
+        hideShow.Hide();
 	}
 	
 	// Update is called once per frame
