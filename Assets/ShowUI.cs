@@ -8,7 +8,7 @@ public class ShowUI : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "cannon_ball (1)")
+        if (collision.gameObject.name == "cannonBall (1)")
         {
             show.Show();
         }
